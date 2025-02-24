@@ -30,7 +30,7 @@ export default function FooterSocial({
       className={
         LightMode
           ? "black"
-          : "bg-gradient-to-b from-bgSectionDark to-black full gap-y-[42px] text-white font-secondFont text-left text-paragraph4 flex flex-col justify-between items-center bg-cover bg-center bg-no-repeat"
+          : "bg-gradient-to-b from-[#d9d5d4] to-white full gap-y-[42px] text-black font-secondFont text-left text-paragraph4 flex flex-col justify-between items-center bg-cover bg-center bg-no-repeat"
       }
     >
       <SectionArea paddingtop={true} paddingbot={false} className="pb-[23px]">
@@ -49,7 +49,7 @@ export default function FooterSocial({
               </MotionDivDownToUp>
               <MotionDivDownToUp>
                 <div className="flex full gap-x-[12px] items-center opacity-90">
-                  <FaWhatsapp size={24} color={LightMode ? "black" : "white"} />
+                  <FaWhatsapp size={24} color={LightMode ? "black" : "black"} />
 
                   <a
                     href={whatsappContactLink}
@@ -278,7 +278,7 @@ export default function FooterSocial({
                                 height="20"
                                 viewBox="0 0 24 24"
                                 fill=""
-                                stroke="currentColor"
+                                stroke=""
                                 stroke-width="2"
                                 stroke-linecap="round"
                                 stroke-linejoin="round"

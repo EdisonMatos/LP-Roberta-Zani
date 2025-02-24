@@ -16,7 +16,7 @@ import BackToTopButton from "../components/interactives/BackToTopButton";
 export default function Index() {
   return (
     <div>
-      <Navbar LightMode={false} />
+      <Navbar LightMode={true} />
       <Hero appDownloadButtons={false} />
       <Features
         defaultFeature={true}
@@ -28,14 +28,14 @@ export default function Index() {
       />
 
       <About modal={true} />
-      <AboutInstagram
+      {/* <AboutInstagram
         socialPrint={true}
         instagram={false}
         facebook={false}
         linkedin={true}
         x={false}
         test={true}
-      />
+      /> */}
       <Cta />
       <Steps />
       <Faq />

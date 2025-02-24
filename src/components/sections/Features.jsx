@@ -34,6 +34,7 @@ export default function Features({ modal, defaultFeature, modalWithCards, sixCar
             sectionHeaderTitle={content.texts.features.title}
             sectionHeaderSubtitle={content.texts.features.subtitle}
             color="dark"
+            miniTitleBgColor={false}
           />
 
           <SectionWrapper>
@@ -44,7 +45,7 @@ export default function Features({ modal, defaultFeature, modalWithCards, sixCar
                     icon={content.texts.features.card1.icon}
                     title={content.texts.features.card1.title}
                     paragraph={content.texts.features.card1.subtitle}
-                    className="tablet1:mb-[26px] desktop1:mb-0 desktop2:mb-[46px]"
+                    className="tablet1:mb-[26px] h-full desktop1:mb-0 desktop2:mb-[46px]"
                   />
                 </MotionDivDownToUp>
                 <MotionDivDownToUp>
