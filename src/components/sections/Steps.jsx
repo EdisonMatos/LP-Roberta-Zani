@@ -56,7 +56,7 @@ export default function Steps() {
             miniTitle={content.texts.steps.miniTag}
             sectionHeaderTitle={content.texts.steps.title}
             sectionHeaderSubtitle={content.texts.steps.subtitle}
-            color=""
+            color="dark"
             type=""
           />
 
