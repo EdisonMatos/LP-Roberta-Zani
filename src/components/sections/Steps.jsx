@@ -13,7 +13,6 @@ import Button from "../interactives/Button";
 import SectionHeader from "../sectionElements/SectionHeader";
 import imgPoints from "../../assets/imgs/about/points.png";
 import HowItWorksCard from "../cards/HowItWorksCard";
-import SectionShapeDiv from "../sectionElements/SectionShapeDiv";
 
 export default function Steps() {
   const [visible, setVisible] = useState(false);
@@ -49,7 +48,7 @@ export default function Steps() {
             miniTitle={content.texts.steps.miniTag}
             sectionHeaderTitle={content.texts.steps.title}
             sectionHeaderSubtitle={content.texts.steps.subtitle}
-            color=""
+            color="dark"
             type="article"
           />
           <SectionHeader

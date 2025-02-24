@@ -24,7 +24,7 @@ export default function SectionHeader({
     miniTitleTextColor = "text-black";
     titleColor = "text-bgSectionDark";
     subtitleColor = "text-darker opacity-70";
-    if (miniTitleBgColor) miniTitleBgColor = "bg-secondary bg-opacity-5";
+    if (miniTitleBgColor) miniTitleBgColor = "bg-primary bg-opacity-100";
   } else {
     miniTitleTextColor = "text-labelsIcons";
     titleColor = "text-lighter";
@@ -60,7 +60,7 @@ export default function SectionHeader({
           </div>
         </div>
         <h1
-          className={`${titleColor} ${titleOrientation} text-title4 leading-[34px] tablet1:leading-[42px] tablet1:text-title5 font-mainFont font-bold mb-[16px]`}
+          className={`${titleColor} ${titleOrientation} text-black text-title4 leading-[34px] tablet1:leading-[42px] tablet1:text-title5 font-mainFont font-bold mb-[16px]`}
         >
           {sectionHeaderTitle}
         </h1>

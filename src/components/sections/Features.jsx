@@ -34,6 +34,7 @@ export default function Features({ modal, defaultFeature, modalWithCards, sixCar
             sectionHeaderTitle={content.texts.features.title}
             sectionHeaderSubtitle={content.texts.features.subtitle}
             color="dark"
+            miniTitleBgColor={false}
           />
 
           <SectionWrapper>

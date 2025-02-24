@@ -76,11 +76,11 @@ export default function About({ modal }) {
             miniTitle={content.texts.about.miniTag}
             sectionHeaderTitle={content.texts.about.title}
             sectionHeaderSubtitle={content.texts.about.subtitle}
-            color=""
+            color="dark"
             type="article"
           />
           <MotionDivDownToUp>
-            <Paragraphs className="text-white text-opacity-80">
+            <Paragraphs className="text-black text-opacity-80">
               <AboutFading />
             </Paragraphs>
             {/* Início Botão de saiba mais abrindo modal */}

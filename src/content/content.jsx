@@ -103,7 +103,7 @@ const content = {
       title: (
         <h1 className="mb-[16px]">
           Responsabilidade
-          <span className="text-primary"> e ética </span>
+          <span className="text-black"> e ética </span>
         </h1>
       ),
       subtitle:

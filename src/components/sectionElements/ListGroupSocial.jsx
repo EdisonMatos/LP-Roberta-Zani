@@ -35,10 +35,10 @@ export default function ListGroupSocial({ LightMode }) {
         LightMode
           ? scrolling
             ? "text-black"
-            : "text-white"
+            : "text-black"
           : scrolling
-          ? "text-lighter"
-          : "text-lighter transition-color duration-1000"
+          ? "text-black"
+          : "text-black transition-color duration-1000"
       }`}
     >
       <li className="transition group h-[24px] ">
@@ -57,10 +57,10 @@ export default function ListGroupSocial({ LightMode }) {
                 LightMode
                   ? scrolling
                     ? "hover:text-black"
-                    : "hover:text-white"
+                    : "hover:text-black"
                   : scrolling
-                  ? "hover:text-lighter [text-shadow:_2px_2px_3px_rgb(0_0_0_/_0%)]"
-                  : "hover:text-lighter [text-shadow:_2px_2px_3px_rgb(0_0_0_/_0%)]"
+                  ? "hover:text-black [text-shadow:_2px_2px_3px_rgb(0_0_0_/_0%)]"
+                  : "hover:text-black [text-shadow:_2px_2px_3px_rgb(0_0_0_/_0%)]"
               } `}
           >
             {content.texts.navbar.menuItems[0]}
@@ -70,10 +70,10 @@ export default function ListGroupSocial({ LightMode }) {
               LightMode
                 ? scrolling
                   ? "bg-black"
-                  : "bg-white"
+                  : "bg-black"
                 : scrolling
-                ? "bg-lighter"
-                : "bg-lighter"
+                ? "bg-black"
+                : "bg-black"
             }`}
           ></div>
         </Link>
@@ -95,10 +95,10 @@ export default function ListGroupSocial({ LightMode }) {
                 LightMode
                   ? scrolling
                     ? "hover:text-black"
-                    : "hover:text-white"
+                    : "hover:text-black"
                   : scrolling
-                  ? "hover:text-lighter [text-shadow:_2px_2px_3px_rgb(0_0_0_/_0%)]"
-                  : "hover:text-lighter [text-shadow:_2px_2px_3px_rgb(0_0_0_/_0%)]"
+                  ? "hover:text-black [text-shadow:_2px_2px_3px_rgb(0_0_0_/_0%)]"
+                  : "hover:text-black [text-shadow:_2px_2px_3px_rgb(0_0_0_/_0%)]"
               } `}
           >
             {content.texts.navbar.menuItems[1]}
@@ -108,10 +108,10 @@ export default function ListGroupSocial({ LightMode }) {
               LightMode
                 ? scrolling
                   ? "bg-black"
-                  : "bg-white"
+                  : "bg-black"
                 : scrolling
-                ? "bg-lighter"
-                : "bg-lighter"
+                ? "bg-black"
+                : "bg-black"
             }`}
           ></div>
         </Link>
@@ -132,10 +132,10 @@ export default function ListGroupSocial({ LightMode }) {
                 LightMode
                   ? scrolling
                     ? "hover:text-black"
-                    : "hover:text-white"
+                    : "hover:text-black"
                   : scrolling
-                  ? "hover:text-lighter [text-shadow:_2px_2px_3px_rgb(0_0_0_/_0%)]"
-                  : "hover:text-lighter [text-shadow:_2px_2px_3px_rgb(0_0_0_/_0%)]"
+                  ? "hover:text-black [text-shadow:_2px_2px_3px_rgb(0_0_0_/_0%)]"
+                  : "hover:text-black [text-shadow:_2px_2px_3px_rgb(0_0_0_/_0%)]"
               } `}
           >
             {content.texts.navbar.menuItems[2]}
@@ -145,10 +145,10 @@ export default function ListGroupSocial({ LightMode }) {
               LightMode
                 ? scrolling
                   ? "bg-black"
-                  : "bg-white"
+                  : "bg-black"
                 : scrolling
-                ? "bg-lighter"
-                : "bg-lighter"
+                ? "bg-black"
+                : "bg-black"
             }`}
           ></div>
         </Link>
@@ -169,10 +169,10 @@ export default function ListGroupSocial({ LightMode }) {
                 LightMode
                   ? scrolling
                     ? "hover:text-black"
-                    : "hover:text-white"
+                    : "hover:text-black"
                   : scrolling
-                  ? "hover:text-lighter [text-shadow:_2px_2px_3px_rgb(0_0_0_/_0%)]"
-                  : "hover:text-lighter [text-shadow:_2px_2px_3px_rgb(0_0_0_/_0%)]"
+                  ? "hover:text-black [text-shadow:_2px_2px_3px_rgb(0_0_0_/_0%)]"
+                  : "hover:text-black [text-shadow:_2px_2px_3px_rgb(0_0_0_/_0%)]"
               } `}
           >
             {content.texts.navbar.menuItems[3]}
@@ -182,10 +182,10 @@ export default function ListGroupSocial({ LightMode }) {
               LightMode
                 ? scrolling
                   ? "bg-black"
-                  : "bg-white"
+                  : "bg-black"
                 : scrolling
-                ? "bg-lighter"
-                : "bg-lighter"
+                ? "bg-black"
+                : "bg-black"
             }`}
           ></div>
         </Link>
@@ -196,9 +196,10 @@ export default function ListGroupSocial({ LightMode }) {
             aria-label={content.texts.hero.ctaButtonAriaLabel}
             label="Contato"
             buttonLink={whatsappContactLink}
-            className={`${scrolling ? "" : ""}`}
+            className={`${scrolling ? "bg-primary text-black" : "bg-primary text-black "}`}
             textclassName="text-paragraph3"
             size="small"
+            color=""
             icon={
               <svg
                 xmlns="http://www.w3.org/2000/svg"

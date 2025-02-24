@@ -16,7 +16,7 @@ import BackToTopButton from "../components/interactives/BackToTopButton";
 export default function Index() {
   return (
     <div>
-      <Navbar LightMode={false} />
+      <Navbar LightMode={true} />
       <Hero appDownloadButtons={false} />
       <Features
         defaultFeature={true}
