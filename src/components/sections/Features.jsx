@@ -18,7 +18,15 @@ import FeaturesParagraphs from "./FeaturesParagraphs";
 import FeaturesButton from "./FeaturesButton";
 import DefaultModals from "./DefaultModals";
 
-export default function Features({ modal, defaultFeature, modalWithCards, sixCards, paragraphs, button, paragraphsModal }) {
+export default function Features({
+  modal,
+  defaultFeature,
+  modalWithCards,
+  sixCards,
+  paragraphs,
+  button,
+  paragraphsModal,
+}) {
   return (
     <div>
       {defaultFeature && (

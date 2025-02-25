@@ -27,7 +27,7 @@ export default function Index() {
         paragraphsModal={false}
       />
 
-      <About modal={true} />
+      <About modal={false} />
       {/* <AboutInstagram
         socialPrint={true}
         instagram={false}

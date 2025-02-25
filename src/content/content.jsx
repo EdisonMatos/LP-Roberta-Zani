@@ -178,7 +178,8 @@ const content = {
       card1: {
         img: featuresImg1,
         title: "Cível",
-        subtitle: "Elaboração e assessoria em contratos; suporte extrajudicial para resolução de conflitos; representação em ações indenizatórias por danos materiais e morais.",
+        subtitle:
+          "Elaboração e assessoria em contratos; suporte extrajudicial para resolução de conflitos; representação em ações indenizatórias por danos materiais e morais.",
         description: (
           <div>
             A_Definir
@@ -189,7 +190,24 @@ const content = {
         ),
         imgModal: imgFeaturesCardModal1,
         icon: (
-          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-scale"><path d="m16 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z"/><path d="m2 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z"/><path d="M7 21h10"/><path d="M12 3v18"/><path d="M3 7h2c2 0 5-1 7-2 2 1 5 2 7 2h2"/></svg>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-scale"
+          >
+            <path d="m16 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z" />
+            <path d="m2 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z" />
+            <path d="M7 21h10" />
+            <path d="M12 3v18" />
+            <path d="M3 7h2c2 0 5-1 7-2 2 1 5 2 7 2h2" />
+          </svg>
         ),
         buttonLabelModal: "Fale Conosco",
         buttonLabel: "Saiba Mais",
@@ -209,7 +227,22 @@ const content = {
         ),
         imgModal: imgFeaturesCardModal2,
         icon: (
-          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-receipt"><path d="M4 2v20l2-1 2 1 2-1 2 1 2-1 2 1 2-1 2 1V2l-2 1-2-1-2 1-2-1-2 1-2-1-2 1Z"/><path d="M16 8h-6a2 2 0 1 0 0 4h4a2 2 0 1 1 0 4H8"/><path d="M12 17.5v-11"/></svg>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-receipt"
+          >
+            <path d="M4 2v20l2-1 2 1 2-1 2 1 2-1 2 1 2-1 2 1V2l-2 1-2-1-2 1-2-1-2 1-2-1-2 1Z" />
+            <path d="M16 8h-6a2 2 0 1 0 0 4h4a2 2 0 1 1 0 4H8" />
+            <path d="M12 17.5v-11" />
+          </svg>
         ),
         buttonLabelModal: "Fale Conosco",
         buttonLabel: "Saiba Mais",
@@ -217,7 +250,8 @@ const content = {
       card3: {
         img: featuresImg3,
         title: "Administrativo",
-        subtitle: "Assessoria em licitações e contratos com a administração pública; atuação em mandado de segurança para garantir direitos em processos licitatórios.",
+        subtitle:
+          "Assessoria em licitações e contratos com a administração pública; atuação em mandado de segurança para garantir direitos em processos licitatórios.",
         description: (
           <div>
             A_Definir <br />
@@ -227,7 +261,23 @@ const content = {
         ),
         imgModal: imgFeaturesCardModal3,
         icon: (
-          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-briefcase-business"><path d="M12 12h.01"/><path d="M16 6V4a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2"/><path d="M22 13a18.15 18.15 0 0 1-20 0"/><rect width="20" height="14" x="2" y="6" rx="2"/></svg>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-briefcase-business"
+          >
+            <path d="M12 12h.01" />
+            <path d="M16 6V4a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2" />
+            <path d="M22 13a18.15 18.15 0 0 1-20 0" />
+            <rect width="20" height="14" x="2" y="6" rx="2" />
+          </svg>
         ),
         buttonLabelModal: "Fale Conosco",
         buttonLabel: "Saiba Mais",
@@ -235,7 +285,8 @@ const content = {
       card4: {
         img: featuresImg4,
         title: "Empresas e parcerias",
-        subtitle: "Ministração de minicursos e palestras (noções de Direito do Consumidor para atendimento ao público); parcerias com escritórios.",
+        subtitle:
+          "Ministração de minicursos e palestras (noções de Direito do Consumidor para atendimento ao público); parcerias com escritórios.",
         description: (
           <div>
             A_Definir
@@ -246,7 +297,24 @@ const content = {
         ),
         imgModal: imgFeaturesCardModal4,
         icon: (
-          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-handshake"><path d="m11 17 2 2a1 1 0 1 0 3-3"/><path d="m14 14 2.5 2.5a1 1 0 1 0 3-3l-3.88-3.88a3 3 0 0 0-4.24 0l-.88.88a1 1 0 1 1-3-3l2.81-2.81a5.79 5.79 0 0 1 7.06-.87l.47.28a2 2 0 0 0 1.42.25L21 4"/><path d="m21 3 1 11h-2"/><path d="M3 3 2 14l6.5 6.5a1 1 0 1 0 3-3"/><path d="M3 4h8"/></svg>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-handshake"
+          >
+            <path d="m11 17 2 2a1 1 0 1 0 3-3" />
+            <path d="m14 14 2.5 2.5a1 1 0 1 0 3-3l-3.88-3.88a3 3 0 0 0-4.24 0l-.88.88a1 1 0 1 1-3-3l2.81-2.81a5.79 5.79 0 0 1 7.06-.87l.47.28a2 2 0 0 0 1.42.25L21 4" />
+            <path d="m21 3 1 11h-2" />
+            <path d="M3 3 2 14l6.5 6.5a1 1 0 1 0 3-3" />
+            <path d="M3 4h8" />
+          </svg>
         ),
         buttonLabelModal: "Fale Conosco",
         buttonLabel: "Saiba Mais",
@@ -330,65 +398,49 @@ const content = {
         img: aboutImg1,
         alt: "Imagem profissional de escritório/advogado(a)",
       },
-      miniTag: "QUEM É A DRA. ROBERTA ZANI",
-      title: "Minha trajetória",
+      miniTag: "",
+      title: "Experiência profissional",
       subtitle:
-        "Advogada com vasta experiência no Direito Cível e do Consumidor desde 2007.",
+        "Advogada cível e consumerista desde 2007. Pós-graduada em Direito Processual Civil.",
       paragraph: (
         <div>
-          Com anos de atuação e especialização, a Dra. Roberta Zani se dedica ao
-          Direito Cível e do Consumidor, oferecendo suporte jurídico estratégico
-          e eficaz.
+          Atuação na área cível e ênfase na defesa dos direitos do consumidor em
+          face de práticas abusivas do mercado.
           <br />
-          Sua formação inclui uma pós-graduação em Direito Processual Civil, que
-          a capacita a atuar com profundidade nos processos judiciais e na
-          estratégia legal de seus clientes.
+          Visão estratégica construída a partir da vivência e participação ativa
+          da política interna de instituições financeiras e de pessoas jurídicas
+          de diversos portes.
+          <br />
+          Atuação em parceria com advogados, escritórios e empresas para
+          elaboração de petições, documentos jurídicos e acadêmicos e
+          ministração de minicursos e palestras.
         </div>
       ),
       buttonModalLabelAbout: "Continuar lendo",
       modal: (
         <p>
-          Com anos de atuação e especialização, a Dra. Roberta Zani se dedica ao
-          Direito Cível e do Consumidor, oferecendo suporte jurídico estratégico
-          e eficaz.
+          A_Definir
           <br />
           <br />
-          Sua formação inclui uma pós-graduação em Direito Processual Civil, que
-          a capacita a atuar com profundidade nos processos judiciais e na
-          estratégia legal de seus clientes.
+          A_Definir
           <br />
           <br />
-          Com uma carreira voltada à proteção dos direitos do consumidor, Dra.
-          Roberta se destaca pelo conhecimento prático adquirido ao longo dos
-          anos, especialmente em sua vivência com instituições financeiras e
-          empresas de transporte de passageiros, sempre focando na defesa e
-          orientação dos consumidores em situações complexas.
+          A_Definir
           <br />
           <br />
-          Além de sua atuação direta com clientes, Dra. Roberta tem vasta
-          experiência na elaboração de estudos e pareceres jurídicos{" "}
-          <i>(legal opinions)</i>, sempre com um olhar atento às implicações
-          jurídicas e riscos administrativos e judiciais.
+          A_Definir
           <br />
           <br />
-          Sua expertise também abrange a gestão de processos, sendo capaz de
-          coordenar equipes e escritórios credenciados para garantir a máxima
-          eficiência nas demandas legais.
+          A_Definir
           <br />
           <br />
-          Sua colaboração com outros advogados, escritórios e empresas é uma
-          marca de seu trabalho, especialmente no que se refere à criação de
-          petições, documentos jurídicos e acadêmicos.
+          A_Definir
           <br />
           <br />
-          Dra. Roberta também se dedica ao ensino, ministrando minicursos e
-          palestras, compartilhando seu vasto conhecimento com outros
-          profissionais e o público em geral.
+          A_Definir
           <br />
           <br />
-          Com uma visão holística da prática jurídica, Dra. Roberta Zani se
-          dedica a promover soluções eficazes para seus clientes, sempre com
-          ética, comprometimento e paixão pelo Direito.
+          A_Definir
           <br />
           <br />
         </p>
@@ -420,8 +472,7 @@ const content = {
     cta: {
       backgroundImg: ctaWhatsappImgBg,
       miniTag: "CONTATO",
-      title:
-        "Enfrentando um problema jurídico?",
+      title: "Enfrentando um problema jurídico?",
       subtitle:
         "Converse com nossa equipe. Estamos prontos para oferecer a orientação jurídica de que você precisa.",
       ctaButtonText: "Entre em contato pelo WhatsApp",

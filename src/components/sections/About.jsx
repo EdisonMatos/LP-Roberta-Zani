@@ -73,7 +73,6 @@ export default function About({ modal }) {
         <div className="desktop1:w-[550px] desktop2:w-[570px] ">
           <SectionHeader
             className="text-center"
-            miniTitle={content.texts.about.miniTag}
             sectionHeaderTitle={content.texts.about.title}
             sectionHeaderSubtitle={content.texts.about.subtitle}
             color="dark"
