@@ -22,7 +22,7 @@ export default function Cta() {
             className="text-center"
             miniTitle={content.texts.cta.miniTag}
             sectionHeaderTitle={content.texts.cta.title}
-            sectionHeaderSubtitle={content.texts.cta.subtitle}
+            // sectionHeaderSubtitle={content.texts.cta.subtitle}
             color="dark"
           />
           <Button

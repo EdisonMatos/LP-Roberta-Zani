@@ -43,7 +43,7 @@ import imgTestimonial4 from "../assets/imgs/testimonials/deposition4.png";
 const currentYear = new Date().getFullYear();
 
 export const infos = {
-  name: "Dra. Roberta Zani",
+  name: "Roberta Zani",
   email: "contato", // Email desejado pelo cliente
   domain: "robertazani.com.br", // Sem "www"
   phone: {
@@ -89,7 +89,7 @@ const content = {
         img: logo,
         alt: `Logomarca ${infos.name}`,
       },
-      menuItems: ["Início", "Serviços", "Sobre Nós", "Perguntas Frequentes"],
+      menuItems: ["Início", "Serviços", "Sobre", "Perguntas Frequentes"],
       ctaButtonText: "Contato",
       ctaButtonTextResponsive: "Contato",
     },
@@ -107,7 +107,7 @@ const content = {
         </h1>
       ),
       subtitle:
-        "Atendimento personalizados, análise detalhada dos casos e atuação estratégica e direcionada.",
+        "Atendimentos personalizados, análise detalhada dos casos e atuação estratégica e direcionada.",
       heroImg: heroImg,
       ctaButtonText: "Entre em contato",
       obsHero: {
@@ -400,17 +400,21 @@ const content = {
       },
       miniTag: "",
       title: "Experiência profissional",
-      subtitle:
-        "Advogada cível e consumerista desde 2007. Pós-graduada em Direito Processual Civil.",
+      subtitle: (
+        <p>
+          Advogada cível e consumerista desde 2007. <br />
+          Pós-graduada em Direito Processual Civil.
+        </p>
+      ),
       paragraph: (
         <div>
           Atuação na área cível e ênfase na defesa dos direitos do consumidor em
           face de práticas abusivas do mercado.
-          <br />
+          <br /> <br />
           Visão estratégica construída a partir da vivência e participação ativa
           da política interna de instituições financeiras e de pessoas jurídicas
           de diversos portes.
-          <br />
+          <br /> <br />
           Atuação em parceria com advogados, escritórios e empresas para
           elaboração de petições, documentos jurídicos e acadêmicos e
           ministração de minicursos e palestras.
@@ -504,7 +508,7 @@ const content = {
         },
         card4: {
           stepNumber: 4,
-          cardTitle: "Ação legal",
+          cardTitle: "Ação judicial",
           cardDescription:
             "Reunida a documentação necessária e detectada a melhor estratégia, a ação judicial é proposta.",
         },
@@ -541,7 +545,7 @@ const content = {
     footer: {
       copyrightLine: ` ${currentYear} - ${infos.name} - Todos os direitos reservados`,
       footerDivulgacaoText: "Gostaria de ter um site como este? Clique aqui",
-      midSectionName: "Até mais",
+      midSectionName: "Obrigada!",
       footerText:
         "Agradecemos sua visita! Esperamos que em breve você se torne nosso cliente e desfrute de todos os benefícios que oferecemos.",
       footerSocialText: "Siga a gente nas redes sociais:",
