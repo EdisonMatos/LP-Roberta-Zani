@@ -24,6 +24,7 @@ export default function Cta() {
             sectionHeaderTitle={content.texts.cta.title}
             // sectionHeaderSubtitle={content.texts.cta.subtitle}
             color="dark"
+            
           />
           <Button
             aria-label={content.texts.hero.ctaButtonAriaLabel}

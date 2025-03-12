@@ -7,10 +7,10 @@ export default function SectionHeader({
   titleColor,
   subtitleColor,
   miniTitle,
-  miniTitleolor,
   miniTitleSpace,
   color,
-  miniTitleBgColor = true, // Valor padrão
+  miniTitleBg = true, // Controle da visibilidade do fundo
+  miniTitleBgColor, // Controle da cor do fundo
   miniTitleTextColor,
   usage,
   type,
@@ -25,13 +25,22 @@ export default function SectionHeader({
     miniTitleTextColor = "text-black";
     titleColor = "text-bgSectionDark";
     subtitleColor = "text-darker opacity-70";
-    if (!miniTitleBgColor) miniTitleBgColor = "bg-primary bg-opacity-100";
+
+    if (miniTitleBgColor === undefined) {
+      miniTitleBgColor = "bg-primary bg-opacity-100"; // Cor padrão
+    }
   } else {
     miniTitleTextColor = "text-labelsIcons";
     titleColor = "text-lighter";
     subtitleColor = "text-lighter text-opacity-80";
-    if (!miniTitleBgColor) miniTitleBgColor = "bg-primary bg-opacity-100";
+
+    if (miniTitleBgColor === undefined) {
+      miniTitleBgColor = "bg-primary bg-opacity-100"; // Cor padrão
+    }
   }
+
+  // Se miniTitleBg for false, não aplicamos cor de fundo
+  const appliedMiniTitleBg = miniTitleBg ? miniTitleBgColor : "";
 
   // Configurações baseadas no tipo
   if (type === "article") {
@@ -45,17 +54,12 @@ export default function SectionHeader({
     marginBottomOption = "mb-[26px] tablet1:mb-[40px] desktop1:mb-[72px]";
   }
 
-  // Remover o background se miniTitleBgColor for false
-  if (!miniTitleBgColor) {
-    miniTitleBgColor = ""; // Sem classe de background
-  }
-
   const Content = (
     <div className={`${usage} ${className}`}>
       <div>
         <div className={`${miniTitleSpace}`}>
           <div
-            className={`py-[4px] font-semibold px-[12px] font-mainFont text-paragraph2 rounded-md inline-block mb-[16px] ${miniTitleOrientation} ${miniTitleBgColor}`}
+            className={`py-[4px] font-semibold px-[12px] font-mainFont text-paragraph2 rounded-md inline-block mb-[16px] ${miniTitleOrientation} ${appliedMiniTitleBg}`}
           >
             <p className={`${miniTitleTextColor} uppercase`}>{miniTitle}</p>
           </div>
