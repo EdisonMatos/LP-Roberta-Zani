@@ -57,6 +57,7 @@ export default function HeroLP() {
                         buttonLink={contentLp01.links.ctaWhatsapp}
                         animation
                         className="w-[100%]"
+                        color="bg-[#E7E7E7]"
                         icon={
                           <svg
                             xmlns="http://www.w3.org/2000/svg"

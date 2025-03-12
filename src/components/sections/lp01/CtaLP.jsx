@@ -25,6 +25,7 @@ export default function AboutParalaxeLP() {
                 sectionHeaderTitle={contentLp01.cta.sectionHeader.title}
                 sectionHeaderSubtitle={contentLp01.cta.sectionHeader.subtitle}
                 color=""
+                miniTitleBgColor="bg-[#E7E7E7]"
               />
               <MotionDivDownToUp>
                 <Button
@@ -32,6 +33,7 @@ export default function AboutParalaxeLP() {
                   label={contentLp01.cta.buttonLabel}
                   buttonLink={contentLp01.links.ctaWhatsapp}
                   animation
+                  color="bg-[#E7E7E7]"
                   icon={
                     <svg
                       xmlns="http://www.w3.org/2000/svg"

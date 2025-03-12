@@ -7,6 +7,7 @@ export default function SectionHeader({
   titleColor,
   subtitleColor,
   miniTitle,
+  miniTitleolor,
   miniTitleSpace,
   color,
   miniTitleBgColor = true, // Valor padrão
@@ -24,12 +25,12 @@ export default function SectionHeader({
     miniTitleTextColor = "text-black";
     titleColor = "text-bgSectionDark";
     subtitleColor = "text-darker opacity-70";
-    if (miniTitleBgColor) miniTitleBgColor = "bg-primary bg-opacity-100";
+    if (!miniTitleBgColor) miniTitleBgColor = "bg-primary bg-opacity-100";
   } else {
     miniTitleTextColor = "text-labelsIcons";
     titleColor = "text-lighter";
     subtitleColor = "text-lighter text-opacity-80";
-    if (miniTitleBgColor) miniTitleBgColor = "bg-primary bg-opacity-100";
+    if (!miniTitleBgColor) miniTitleBgColor = "bg-primary bg-opacity-100";
   }
 
   // Configurações baseadas no tipo
@@ -52,13 +53,13 @@ export default function SectionHeader({
   const Content = (
     <div className={`${usage} ${className}`}>
       <div>
-        {/* <div className={`${miniTitleSpace}`}>
+        <div className={`${miniTitleSpace}`}>
           <div
             className={`py-[4px] font-semibold px-[12px] font-mainFont text-paragraph2 rounded-md inline-block mb-[16px] ${miniTitleOrientation} ${miniTitleBgColor}`}
           >
             <p className={`${miniTitleTextColor} uppercase`}>{miniTitle}</p>
           </div>
-        </div> */}
+        </div>
         <h1
           className={`${titleColor} ${titleOrientation} text-black text-title4 leading-[34px] tablet1:leading-[42px] tablet1:text-title5 font-mainFont font-bold mb-[16px]`}
         >
