@@ -60,8 +60,8 @@ const contentLp01 = {
         title: "Voo cancelado, atrasado ou remanejado sem aviso prévio",
         description: (
           <p>
-            SÉ dever da companhia aérea oferecer suporte adequado em situações
-            de atrasos, cancelamentos ou <i>overbooking</i>.
+            É dever da companhia aérea oferecer suporte adequado em situações de
+            atrasos, cancelamentos ou <i>overbooking</i>.
           </p>
         ),
       },
@@ -139,7 +139,7 @@ const contentLp01 = {
         ),
         title: "Negativa de reembolso ou assistência",
         description:
-          "SSe a companhia aérea se recusou a reembolsar sua passagem ou bagagem ou não ofereceu alimentação e hospedagem quando necessário, pode ser necessário buscar judicialmente a devida reparação.",
+          "Se a companhia aérea se recusou a reembolsar sua passagem ou bagagem ou não ofereceu alimentação e hospedagem quando necessário, pode ser necessário buscar judicialmente a devida reparação.",
       },
     },
   },
