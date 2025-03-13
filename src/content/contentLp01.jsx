@@ -37,7 +37,7 @@ const contentLp01 = {
   features: {
     sectionHeader: {
       miniTag: "RECLAME SEUS DIREITOS",
-      title: "Quem pode solicitar indenização?",
+      title: "Quem pode requerer indenização?",
     },
     cards: {
       card1: {
@@ -57,9 +57,9 @@ const contentLp01 = {
             <path d="M17.8 19.2 16 11l3.5-3.5C21 6 21.5 4 21 3c-1-.5-3 0-4.5 1.5L13 8 4.8 6.2c-.5-.1-.9.1-1.1.5l-.3.5c-.2.5-.1 1 .3 1.3L9 12l-2 3H4l-1 1 3 2 2 3 1-1v-3l3-2 3.5 5.3c.3.4.8.5 1.3.3l.5-.2c.4-.3.6-.7.5-1.2z" />
           </svg>
         ),
-        title: "Voo cancelado sem aviso prévio",
+        title: "Voo cancelado, atrasado ou remanejado sem aviso prévio",
         description:
-          "Se sua viagem foi interrompida por um cancelamento inesperado e você não recebeu suporte adequado da companhia aérea, pode ter direito a uma indenização.",
+          (<p>SÉ dever da companhia aérea oferecer suporte adequado em situações de atrasos, cancelamentos ou <i>overbooking</i>.</p>),
       },
       card2: {
         icon: (
@@ -81,9 +81,9 @@ const contentLp01 = {
             <path d="M20 21.5h.01" />
           </svg>
         ),
-        title: "Atrasos superiores a 4 horas",
+        title: "Danos, avarias e extravio de bagagem",
         description:
-          "Se o seu voo sofreu um atraso de mais de 4 horas e a companhia não ofereceu reacomodação ou assistência adequada, você pode exigir compensação.",
+          "É de responsabilidade da empresa a guarda e segurança da bagagem despachada. Em caso de avarias ou extravio (temporário ou definitivo), o prejuízo deve ser reparado.",
       },
       card3: {
         icon: (
@@ -109,9 +109,9 @@ const contentLp01 = {
             <path d="M12 12v6" />
           </svg>
         ),
-        title: "Perda de compromissos importantes",
+        title: "Perda de compromissos importantes de trabalho ou transtornos na tão planejada viagem de férias",
         description:
-          "Se o cancelamento ou atraso do voo fez você perder eventos, reuniões ou conexões essenciais, você pode ter direito a reparação por danos.",
+          "Se qualquer infortúnio realizado a horários não obedecidos ou por danos/extravio de bagagem causou perda de compromissos de trabalho ou mesmo de lazer, a companhia aérea tem o dever de ressarcimento.",
       },
       card4: {
         icon: (
@@ -134,7 +134,7 @@ const contentLp01 = {
         ),
         title: "Negativa de reembolso ou assistência",
         description:
-          "Se a companhia aérea se recusou a reembolsar sua passagem ou não ofereceu alimentação e hospedagem quando necessário, podemos buscar seus direitos na justiça.",
+          "SSe a companhia aérea se recusou a reembolsar sua passagem ou bagagem ou não ofereceu alimentação e hospedagem quando necessário, pode ser necessário buscar judicialmente a devida reparação.",
       },
     },
   },
