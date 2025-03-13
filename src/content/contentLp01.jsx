@@ -58,8 +58,12 @@ const contentLp01 = {
           </svg>
         ),
         title: "Voo cancelado, atrasado ou remanejado sem aviso prévio",
-        description:
-          (<p>SÉ dever da companhia aérea oferecer suporte adequado em situações de atrasos, cancelamentos ou <i>overbooking</i>.</p>),
+        description: (
+          <p>
+            SÉ dever da companhia aérea oferecer suporte adequado em situações
+            de atrasos, cancelamentos ou <i>overbooking</i>.
+          </p>
+        ),
       },
       card2: {
         icon: (
@@ -109,7 +113,8 @@ const contentLp01 = {
             <path d="M12 12v6" />
           </svg>
         ),
-        title: "Perda de compromissos importantes de trabalho ou transtornos na tão planejada viagem de férias",
+        title:
+          "Perda de compromissos importantes de trabalho ou transtornos na tão planejada viagem de férias",
         description:
           "Se qualquer infortúnio realizado a horários não obedecidos ou por danos/extravio de bagagem causou perda de compromissos de trabalho ou mesmo de lazer, a companhia aérea tem o dever de ressarcimento.",
       },
@@ -146,21 +151,16 @@ const contentLp01 = {
     },
     sectionHeader: {
       miniTag: "EXCELÊNCIA NA DEFESA DOS SEUS DIREITOS",
-      title: "Dedicação e eficiência na sua indenização",
+      title: "Análise individualizada e adoção de medida estratégica",
     },
     paragraph: (
       <p>
-        Sabemos que imprevistos em viagens podem causar grandes transtornos. Por
-        isso, atuo de maneira rápida e estratégica para garantir que seus
-        direitos sejam respeitados. Se você teve um voo cancelado, atrasado ou
-        não recebeu o suporte devido da companhia aérea, posso ajudar a buscar
-        sua indenização. <br />
-        <br /> Independentemente da sua situação, estou aqui para oferecer a
-        melhor solução jurídica. Entre em contato e descubra como podemos ser
-        fundamentais na defesa dos seus direitos.
+        Se você se enquadra em qualquer das hipóteses acima, é possível que
+        tenha direito a ser indenizado pela falha na prestação de serviços da
+        companhia aérea.
       </p>
     ),
-    buttonLabel: "Quero falar com um especialista",
+    buttonLabel: "Para saber mais, agende um horário.",
     ctaButtonAriaLabel: "Botão para chamada de ação para contato pelo whatsapp",
   },
   whyUs: {
