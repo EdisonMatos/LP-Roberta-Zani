@@ -22,13 +22,14 @@ const contentLp01 = {
     textArea: {
       title: (
         <h1>
-          Teve seu <span className="text-primary"> voo cancelado</span>? Você
-          pode ter direito a<span className="text-primary"> indenização</span>!
+          Problemas com o <span className="text-primary"> voo</span>? Atrasos ou
+          cancelamentos <span className="text-primary"> injustificados</span>,
+          danos ou extravios<span className="text-primary"> à bagagem.</span>
         </h1>
       ),
       subtitle:
         "Descubra se você pode receber compensação por danos causados pelo cancelamento do seu voo. Conte com suporte jurídico especializado para garantir seus direitos.",
-      buttonLabel: "Quero falar com um especialista",
+      buttonLabel: "Clique aqui e converse com um especialista.",
       ctaButtonAriaLabel:
         "Botão para chamada de ação para contato pelo whatsapp",
     },
@@ -36,7 +37,7 @@ const contentLp01 = {
   features: {
     sectionHeader: {
       miniTag: "RECLAME SEUS DIREITOS",
-      title: "Quem pode solicitar indenização?",
+      title: "Quem pode requerer indenização?",
     },
     cards: {
       card1: {
@@ -56,9 +57,13 @@ const contentLp01 = {
             <path d="M17.8 19.2 16 11l3.5-3.5C21 6 21.5 4 21 3c-1-.5-3 0-4.5 1.5L13 8 4.8 6.2c-.5-.1-.9.1-1.1.5l-.3.5c-.2.5-.1 1 .3 1.3L9 12l-2 3H4l-1 1 3 2 2 3 1-1v-3l3-2 3.5 5.3c.3.4.8.5 1.3.3l.5-.2c.4-.3.6-.7.5-1.2z" />
           </svg>
         ),
-        title: "Voo cancelado sem aviso prévio",
-        description:
-          "Se sua viagem foi interrompida por um cancelamento inesperado e você não recebeu suporte adequado da companhia aérea, pode ter direito a uma indenização.",
+        title: "Voo cancelado, atrasado ou remanejado sem aviso prévio",
+        description: (
+          <p>
+            É dever da companhia aérea oferecer suporte adequado em situações de
+            atrasos, cancelamentos ou <i>overbooking</i>.
+          </p>
+        ),
       },
       card2: {
         icon: (
@@ -80,9 +85,9 @@ const contentLp01 = {
             <path d="M20 21.5h.01" />
           </svg>
         ),
-        title: "Atrasos superiores a 4 horas",
+        title: "Danos, avarias e extravio de bagagem",
         description:
-          "Se o seu voo sofreu um atraso de mais de 4 horas e a companhia não ofereceu reacomodação ou assistência adequada, você pode exigir compensação.",
+          "É de responsabilidade da empresa a guarda e segurança da bagagem despachada. Em caso de avarias ou extravio (temporário ou definitivo), o prejuízo deve ser reparado.",
       },
       card3: {
         icon: (
@@ -108,9 +113,10 @@ const contentLp01 = {
             <path d="M12 12v6" />
           </svg>
         ),
-        title: "Perda de compromissos importantes",
+        title:
+          "Perda de compromissos importantes de trabalho ou transtornos na tão planejada viagem de férias",
         description:
-          "Se o cancelamento ou atraso do voo fez você perder eventos, reuniões ou conexões essenciais, você pode ter direito a reparação por danos.",
+          "Se qualquer infortúnio realizado a horários não obedecidos ou por danos/extravio de bagagem causou perda de compromissos de trabalho ou mesmo de lazer, a companhia aérea tem o dever de ressarcimento.",
       },
       card4: {
         icon: (
@@ -133,7 +139,7 @@ const contentLp01 = {
         ),
         title: "Negativa de reembolso ou assistência",
         description:
-          "Se a companhia aérea se recusou a reembolsar sua passagem ou não ofereceu alimentação e hospedagem quando necessário, podemos buscar seus direitos na justiça.",
+          "Se a companhia aérea se recusou a reembolsar sua passagem ou bagagem ou não ofereceu alimentação e hospedagem quando necessário, pode ser necessário buscar judicialmente a devida reparação.",
       },
     },
   },
@@ -145,21 +151,16 @@ const contentLp01 = {
     },
     sectionHeader: {
       miniTag: "EXCELÊNCIA NA DEFESA DOS SEUS DIREITOS",
-      title: "Dedicação e eficiência na sua indenização",
+      title: "Análise individualizada e adoção de medida estratégica",
     },
     paragraph: (
       <p>
-        Sabemos que imprevistos em viagens podem causar grandes transtornos. Por
-        isso, atuo de maneira rápida e estratégica para garantir que seus
-        direitos sejam respeitados. Se você teve um voo cancelado, atrasado ou
-        não recebeu o suporte devido da companhia aérea, posso ajudar a buscar
-        sua indenização. <br />
-        <br /> Independentemente da sua situação, estou aqui para oferecer a
-        melhor solução jurídica. Entre em contato e descubra como podemos ser
-        fundamentais na defesa dos seus direitos.
+        Se você se enquadra em qualquer das hipóteses acima, é possível que
+        tenha direito a ser indenizado pela falha na prestação de serviços da
+        companhia aérea.
       </p>
     ),
-    buttonLabel: "Quero falar com um especialista",
+    buttonLabel: "Para saber mais, agende um horário.",
     ctaButtonAriaLabel: "Botão para chamada de ação para contato pelo whatsapp",
   },
   whyUs: {

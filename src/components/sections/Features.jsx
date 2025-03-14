@@ -42,7 +42,7 @@ export default function Features({
             sectionHeaderTitle={content.texts.features.title}
             sectionHeaderSubtitle={content.texts.features.subtitle}
             color="dark"
-            miniTitleBgColor={false}
+            miniTitleBg={false}
           />
 
           <SectionWrapper>

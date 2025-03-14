@@ -46,6 +46,7 @@ export default function AboutParalaxeLP({ logo }) {
                     sectionHeaderTitle={contentLp01.about.sectionHeader.title}
                     color=""
                     type="article"
+                    miniTitleBgColor="bg-[#E7E7E7]"
                   />
                   <MotionDivDownToUp>
                     <p className="font-mainFont mb-[36px]">
@@ -59,6 +60,7 @@ export default function AboutParalaxeLP({ logo }) {
                         label={contentLp01.about.buttonLabel}
                         buttonLink={contentLp01.links.ctaWhatsapp}
                         animation
+                        color="bg-[#E7E7E7]"
                         className=""
                         icon={
                           <svg

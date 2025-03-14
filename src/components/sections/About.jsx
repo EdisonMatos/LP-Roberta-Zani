@@ -77,6 +77,7 @@ export default function About({ modal }) {
             sectionHeaderSubtitle={content.texts.about.subtitle}
             color="dark"
             type="article"
+            miniTitleBg={false}
           />
           <MotionDivDownToUp>
             <Paragraphs className="text-black text-opacity-80">
