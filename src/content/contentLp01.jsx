@@ -166,7 +166,7 @@ const contentLp01 = {
   whyUs: {
     sectionHeader: {
       miniTag: "A ESCOLHA CERTA",
-      title: "Por que nos escolher para garantir sua indenização?",
+      title: "Por que contratar um especialista?",
     },
     cards: {
       card1: {
@@ -181,11 +181,14 @@ const contentLp01 = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-lightbulb"
+            class="lucide lucide-chart-no-axes-combined"
           >
-            <path d="M15 14c.2-1 .7-1.7 1.5-2.5 1-.9 1.5-2.2 1.5-3.5A6 6 0 0 0 6 8c0 1 .2 2.2 1.5 3.5.7.7 1.3 1.5 1.5 2.5" />
-            <path d="M9 18h6" />
-            <path d="M10 22h4" />
+            <path d="M12 16v5" />
+            <path d="M16 14v7" />
+            <path d="M20 10v11" />
+            <path d="m22 3-8.646 8.646a.5.5 0 0 1-.708 0L9.354 8.354a.5.5 0 0 0-.707 0L2 15" />
+            <path d="M4 18v3" />
+            <path d="M8 14v7" />
           </svg>
         ),
         title: "Estratégia personalizada para o seu caso",
@@ -229,10 +232,13 @@ const contentLp01 = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-shield-check"
+            class="lucide lucide-scale"
           >
-            <path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z" />
-            <path d="m9 12 2 2 4-4" />
+            <path d="m16 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z" />
+            <path d="m2 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z" />
+            <path d="M7 21h10" />
+            <path d="M12 3v18" />
+            <path d="M3 7h2c2 0 5-1 7-2 2 1 5 2 7 2h2" />
           </svg>
         ),
         title: "Compromisso total com seus direitos",
@@ -261,7 +267,7 @@ const contentLp01 = {
         ),
         title: "Experiência que inspira confiança",
         description:
-          "Com ampla experiência em casos de cancelamento e atraso de voos, tratamos seu processo com máxima segurança e eficiência. Estaremos ao seu lado para garantir que seus direitos sejam respeitados e que você receba a compensação devida. Conte conosco para fazer a diferença na sua jornada!",
+          "A_DeCom ampla experiência em casos de cancelamento e atraso de voos, tratamos seu processo com máxima segurança e eficiência. Estaremos ao seu lado para garantir que seus direitos sejam respeitados e que você receba a compensação devida. Conte conosco para fazer a diferença na sua jornada!finir",
       },
     },
   },

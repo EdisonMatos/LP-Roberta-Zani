@@ -43,7 +43,7 @@ export default function Lp01() {
       <HeroLP />
       <FeaturesLP />
       <AboutParalaxeLP logo={true} />
-      {/* <WhyUs /> */}
+      <WhyUs />
       <CtaLP />
       {/* <Faq /> */}
       <ContactLP />
